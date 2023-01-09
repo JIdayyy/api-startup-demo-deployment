@@ -18,7 +18,7 @@ COPY . .
 
 
 # our app is running on port 5000 within the container, so need to expose it
-EXPOSE 4000
+EXPOSE 4001
 
 # the command that starts our app
 CMD ["npm", "run", "deploy"]
